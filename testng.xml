@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regres API Tests" verbose="1" configfailurepolicy="continue">
+    <test name="Reqres Regression Suite">
+        <packages>
+            <package name="api"></package>
+        </packages>
+    </test>
+</suite>
